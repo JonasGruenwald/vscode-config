@@ -1,0 +1,110 @@
+// Keybindings to allign more closely to Jetbains IDEs
+[
+  {
+    "key": "cmd+1",
+    "command": "workbench.explorer.fileView.focus",
+    "when": "!explorerViewletVisible"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletVisible"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+2",
+    "command": "outline.focus",
+    "when" : "!view.outline.visible"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.closeAuxiliaryBar",
+    "when" : "view.outline.visible"
+  },
+  {
+    "key": "cmd+3",
+    "command": "terminal.focus",
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.togglePanel",
+    "when" : "terminalFocus"
+  },
+  {
+    "key": "cmd+k",
+    "command": "workbench.view.scm",
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "git.push",
+  },
+  {
+    "key": "cmd+u",
+    "command": "git.pull",
+  },
+  {
+    "key": "cmd+b",
+    "command": "git.checkout",
+  },
+  {
+    "key": "cmd+t",
+    "command" : "workbench.action.terminal.new",
+    "when" : "terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command" : "workbench.action.terminal.killActiveTab",
+    "when" : "terminalFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+3",
+    "command": "-workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.replaceInFiles",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "-editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+]",
+    "command": "-editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  }
+]

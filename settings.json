@@ -1,0 +1,42 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    // The number of spaces a tab is equal to. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.tabSize": 2,
+    // Insert spaces when pressing Tab. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.insertSpaces": true,
+    "editor.indentSize": "tabSize",
+    "emmet.triggerExpansionOnTab": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "editor.fontFamily": "Jetbrains Mono NL, Menlo, Monaco, 'Courier New', monospace",
+    "window.density.editorTabHeight": "compact",
+    "editor.fontSize": 14,
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.editorAssociations": {
+        "*.vscdb": "sqlite-viewer.option"
+    }
+}
