@@ -17,12 +17,12 @@
   {
     "key": "cmd+2",
     "command": "outline.focus",
-    "when" : "!view.outline.visible"
+    "when": "!view.outline.visible"
   },
   {
     "key": "cmd+2",
     "command": "workbench.action.closeAuxiliaryBar",
-    "when" : "view.outline.visible"
+    "when": "view.outline.visible"
   },
   {
     "key": "cmd+3",
@@ -31,7 +31,24 @@
   {
     "key": "cmd+3",
     "command": "workbench.action.togglePanel",
-    "when" : "terminalFocus"
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+3",
+    "command": "-workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "cmd+4",
+    "command" : "dockerContainers.focus"
+  },
+  {
+    "key": "cmd+4",
+    "command": "workbench.action.closeAuxiliaryBar",
+    "when": "dockerContainers"
+  },
+  {
+    "key" : "cmd+5",
+    "command" : "workbench.panel.chat.view.copilot.focus",
   },
   {
     "key": "cmd+k",
@@ -51,21 +68,17 @@
   },
   {
     "key": "cmd+t",
-    "command" : "workbench.action.terminal.new",
-    "when" : "terminalFocus"
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
   },
   {
     "key": "cmd+w",
-    "command" : "workbench.action.terminal.killActiveTab",
-    "when" : "terminalFocus"
+    "command": "workbench.action.terminal.killActiveTab",
+    "when": "terminalFocus"
   },
   {
     "key": "cmd+b",
     "command": "-workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "cmd+3",
-    "command": "-workbench.action.focusThirdEditorGroup"
   },
   {
     "key": "alt+cmd+l",
@@ -106,5 +119,15 @@
     "key": "ctrl+shift+-",
     "command": "-workbench.action.navigateForward",
     "when": "canNavigateForward"
+  },
+  {
+    "key": "alt+space",
+    "command": "editor.action.codeAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "insert",
+    "command": "editor.action.rename",
+    "when": "editorTextFocus"
   }
 ]

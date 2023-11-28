@@ -16,7 +16,6 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
-
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[json]": {
@@ -34,9 +33,43 @@
     "editor.fontFamily": "Jetbrains Mono NL, Menlo, Monaco, 'Courier New', monospace",
     "window.density.editorTabHeight": "compact",
     "editor.fontSize": 14,
-    "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
     "workbench.editorAssociations": {
         "*.vscdb": "sqlite-viewer.option"
-    }
+    },
+    "vscode-color-picker.languages": [
+        "python",
+        "javascript",
+        "typescript",
+        "typescriptreact"
+    ],
+    "workbench.colorTheme": "Atom One Light",
+    "workbench.colorCustomizations": {
+        "[JetBrains New UI Dark Theme]": {
+            "statusBarItem.remoteBackground": "#252526",
+            "statusBarItem.remoteForeground": "#ffffff",
+        },
+        "[Atom One Light]": {
+            "statusBarItem.remoteBackground": "#EAEAEB",
+            "statusBarItem.remoteForeground": "#252526",
+        }
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.activityBar.location": "top",
+    "timetracker.useCompactStatusPanel": true,
+    "timetracker.dotTimeTrackerIndent": "",
+    "timetracker.autostart.autoStartTimeTracking": true,
+    "workbench.preferredDarkColorTheme": "JetBrains New UI Dark Theme",
+    "window.commandCenter": false,
+    "workbench.preferredLightColorTheme": "Atom One Light",
+    "window.autoDetectColorScheme": true,
+    "inlineChat.showGutterIcon": true,
+    "svelte.enable-ts-plugin": true,
+    "notebook.output.scrolling": true,
+    "editor.linkedEditing": true,
+    "javascript.preferences.renameMatchingJsxTags": true,
+    "typescript.preferences.renameMatchingJsxTags": true,
+    "window.openFoldersInNewWindow": "on",
+    "window.openFilesInNewWindow": "on",
+    "window.newWindowDimensions": "inherit"
 }
