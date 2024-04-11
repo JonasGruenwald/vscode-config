@@ -1,6 +1,6 @@
 {
     "telemetry.telemetryLevel": "off",
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": "onlySelectedExtensions",
     "extensions.ignoreRecommendations": true,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
@@ -33,9 +33,8 @@
     "editor.fontFamily": "Jetbrains Mono NL, Menlo, Monaco, 'Courier New', monospace",
     "window.density.editorTabHeight": "compact",
     "editor.fontSize": 14,
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
     "workbench.editorAssociations": {
-        "*.vscdb": "sqlite-viewer.option"
+      "*.vscdb": "sqlite-viewer.option"
     },
     "vscode-color-picker.languages": [
         "python",
@@ -69,7 +68,32 @@
     "editor.linkedEditing": true,
     "javascript.preferences.renameMatchingJsxTags": true,
     "typescript.preferences.renameMatchingJsxTags": true,
-    "window.openFoldersInNewWindow": "on",
     "window.openFilesInNewWindow": "on",
-    "window.newWindowDimensions": "inherit"
+    "window.newWindowDimensions": "inherit",
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.indentSize": 2,
+    },
+    "editor.detectIndentation": false,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+    "database-client.telemetry.usesOnlineServices": false,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "playwright.reuseBrowser": true,
+    "window.confirmBeforeClose": "always",
+    "code-livebook.livebookExecutablePath": "",
+    "window.openFoldersInNewWindow": "on",
+    "[elixir]": {
+      "editor.defaultFormatter": "lexical-lsp.lexical"
+    },
+    "github.copilot.chat.localeOverride": "en",
+    "github.copilot.chat.welcomeMessage": "never",
+    "github.copilot.advanced": {
+      "temperature": 0.5
+    }
 }
