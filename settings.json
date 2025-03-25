@@ -1,99 +1,126 @@
 {
-    "telemetry.telemetryLevel": "off",
-    "extensions.autoUpdate": "onlySelectedExtensions",
-    "extensions.ignoreRecommendations": true,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "all",
-    // The number of spaces a tab is equal to. This setting is overriden
-    // based on the file contents when `editor.detectIndentation` is true.
-    "editor.tabSize": 2,
-    // Insert spaces when pressing Tab. This setting is overriden
-    // based on the file contents when `editor.detectIndentation` is true.
-    "editor.insertSpaces": true,
-    "editor.indentSize": "tabSize",
-    "emmet.triggerExpansionOnTab": true,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+  "telemetry.telemetryLevel": "off",
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.renderWhitespace": "all",
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "window.newWindowDimensions": "inherit",
+  "window.openFoldersInNewWindow": "on",
+  "window.openFilesInNewWindow": "on",
+  "workbench.activityBar.location": "top",
+  "window.commandCenter": false,
+  // less wasted vertical space by tabs
+  "window.density.editorTabHeight": "compact",
+  "editor.fontSize": 14,
+  // The number of spaces a tab is equal to. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.tabSize": 2,
+  // Insert spaces when pressing Tab. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.insertSpaces": true,
+  "editor.indentSize": "tabSize",
+  "emmet.triggerExpansionOnTab": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "git.autofetch": true,
+  "editor.fontFamily": "Jetbrains Mono NL, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "vscode-color-picker.languages": [
+    "python",
+    "javascript",
+    "typescript",
+    "typescriptreact"
+  ],
+  "workbench.colorTheme": "Atom One Light",
+  "workbench.colorCustomizations": {
+    "[JetBrains New UI Dark Theme]": {
+      "statusBarItem.remoteBackground": "#252526",
+      "statusBarItem.remoteForeground": "#ffffff",
     },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "security.workspace.trust.untrustedFiles": "open",
-    "redhat.telemetry.enabled": false,
-    "editor.inlineSuggest.enabled": true,
-    "workbench.startupEditor": "none",
-    "files.autoSave": "afterDelay",
-    "git.autofetch": true,
-    "editor.fontFamily": "Jetbrains Mono NL, Menlo, Monaco, 'Courier New', monospace",
-    "window.density.editorTabHeight": "compact",
-    "editor.fontSize": 14,
-    "workbench.editorAssociations": {
-      "*.vscdb": "sqlite-viewer.option"
-    },
-    "vscode-color-picker.languages": [
-        "python",
-        "javascript",
-        "typescript",
-        "typescriptreact"
-    ],
-    "workbench.colorTheme": "Atom One Light",
-    "workbench.colorCustomizations": {
-        "[JetBrains New UI Dark Theme]": {
-            "statusBarItem.remoteBackground": "#252526",
-            "statusBarItem.remoteForeground": "#ffffff",
-        },
-        "[Atom One Light]": {
-            "statusBarItem.remoteBackground": "#EAEAEB",
-            "statusBarItem.remoteForeground": "#252526",
-        }
-    },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.activityBar.location": "top",
-    "timetracker.useCompactStatusPanel": true,
-    "timetracker.dotTimeTrackerIndent": "",
-    "timetracker.autostart.autoStartTimeTracking": true,
-    "workbench.preferredDarkColorTheme": "JetBrains New UI Dark Theme",
-    "window.commandCenter": false,
-    "workbench.preferredLightColorTheme": "Atom One Light",
-    "window.autoDetectColorScheme": true,
-    "inlineChat.showGutterIcon": true,
-    "svelte.enable-ts-plugin": true,
-    "notebook.output.scrolling": true,
-    "editor.linkedEditing": true,
-    "javascript.preferences.renameMatchingJsxTags": true,
-    "typescript.preferences.renameMatchingJsxTags": true,
-    "window.openFilesInNewWindow": "on",
-    "window.newWindowDimensions": "inherit",
-    "[typescriptreact]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.indentSize": 2,
-    },
-    "editor.detectIndentation": false,
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
-    "database-client.telemetry.usesOnlineServices": false,
-    "github.copilot.enable": {
-      "*": true,
-      "plaintext": false,
-      "markdown": false,
-      "scminput": false
-    },
-    "playwright.reuseBrowser": true,
-    "window.confirmBeforeClose": "always",
-    "code-livebook.livebookExecutablePath": "",
-    "window.openFoldersInNewWindow": "on",
-    "[elixir]": {
-      "editor.defaultFormatter": "lexical-lsp.lexical"
-    },
-    "github.copilot.chat.localeOverride": "en",
-    "github.copilot.chat.welcomeMessage": "never",
-    "github.copilot.advanced": {
-      "temperature": 0.5
+    "[Atom One Light]": {
+      "statusBarItem.remoteBackground": "#EAEAEB",
+      "statusBarItem.remoteForeground": "#252526",
     }
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "timetracker.useCompactStatusPanel": true,
+  "timetracker.dotTimeTrackerIndent": "",
+  "timetracker.autostart.autoStartTimeTracking": true,
+  "workbench.preferredDarkColorTheme": "JetBrains New UI Dark Theme",
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "window.autoDetectColorScheme": true,
+  "svelte.enable-ts-plugin": true,
+  "notebook.output.scrolling": true,
+  "editor.linkedEditing": true,
+  "javascript.preferences.renameMatchingJsxTags": true,
+  "typescript.preferences.renameMatchingJsxTags": true,
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.indentSize": 2,
+  },
+  "editor.detectIndentation": false,
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+  "database-client.telemetry.usesOnlineServices": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "html": true
+  },
+  "playwright.reuseBrowser": true,
+  "window.confirmBeforeClose": "always",
+  "[elixir]": {
+    "editor.defaultFormatter": "lexical-lsp.lexical"
+  },
+  "github.copilot.chat.localeOverride": "en",
+  "github.copilot.advanced": {
+    "temperature": 0.5
+  },
+  "gleam.path": "/Users/jonas/.local/share/mise/installs/gleam/latest/bin/gleam",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "code-livebook.livebookExecutablePath": "/Users/jonas/.local/share/mise/installs/elixir/1.16.3-otp-26/.mix/escripts/livebook",
+  "code-livebook.livebookEnvironment": {
+    "PATH": "/Users/jonas/.local/share/mise/shims:/Users/jonas/.mix/escripts:/opt/homebrew/opt/postgresql@16/bin:/Users/jonas/.local/bin:/Users/jonas/miniforge3/bin:/Users/jonas/Library/pnpm:/Users/jonas/.bun/bin:/usr/local/opt/python@3.10/libexec/bin:/usr/local/lib/ruby/gems/2.6.0/gems/dugway-1.0.4/bin:/usr/local/opt/ruby@2.6/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/MacGPG2/bin:/Library/TeX/texbin:/Users/jonas/.mix/escripts:/Users/jonas/go/bin:/usr/local/opt/go/libexec/bin"
+  },
+  "githubIssues.userCompletions.enabled": false,
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "terminal.external.osxExec": "ghostty",
+  "terminal.integrated.profiles.osx": {
+    "fish": {
+      "path": "/opt/homebrew/bin/fish",
+      "args": [
+        "-l"
+      ]
+    },
+  },
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.theme": "beach",
+  "mise.configureExtensionsAutomatically": false,
+  "git.blame.editorDecoration.enabled": true,
+  "files.associations": {
+    ".env.development": "properties",
+    ".env.production": "properties"
+  }
 }

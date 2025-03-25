@@ -51,6 +51,11 @@
     "command" : "workbench.panel.chat.view.copilot.focus",
   },
   {
+    "key": "cmd+5",
+    "command": "workbench.action.closeAuxiliaryBar",
+    "when": "chatInputHasFocus"
+  },
+  {
     "key": "cmd+k",
     "command": "workbench.view.scm",
   },
