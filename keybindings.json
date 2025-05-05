@@ -39,12 +39,7 @@
   },
   {
     "key": "cmd+4",
-    "command" : "dockerContainers.focus"
-  },
-  {
-    "key": "cmd+4",
-    "command": "workbench.action.closeAuxiliaryBar",
-    "when": "dockerContainers"
+    "command" : "vscode-containers.views.containers.focus"
   },
   {
     "key" : "cmd+5",
