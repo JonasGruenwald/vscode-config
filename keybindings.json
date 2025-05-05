@@ -42,6 +42,11 @@
     "command" : "vscode-containers.views.containers.focus"
   },
   {
+    "key": "cmd+4",
+    "command": "workbench.action.closeAuxiliaryBar",
+    "when": "activeAuxiliary == 'workbench.view.extension.containersView'"
+  },
+  {
     "key" : "cmd+5",
     "command" : "workbench.panel.chat.view.copilot.focus",
   },
