@@ -21,8 +21,6 @@
   // based on the file contents when `editor.detectIndentation` is true.
   "editor.insertSpaces": true,
   "editor.indentSize": "tabSize",
-  // I'm using 'Open Editors' view instead, sort of like vertical tabs
-  "workbench.editor.showTabs": "none",
   "emmet.triggerExpansionOnTab": true,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -89,7 +87,7 @@
     "scminput": false,
     "html": true,
     "typescript": true,
-    "typescriptreact": false,
+    "typescriptreact": true,
     "gleam": true,
     "elixir": true
   },
