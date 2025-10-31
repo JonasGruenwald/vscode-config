@@ -1,11 +1,12 @@
 {
+  // This helps in gleam and elixir projects, so that wibble.gleam is shown next to the wibble/ folder
+  "explorer.sortOrder": "mixed",
   "telemetry.telemetryLevel": "off",
   "extensions.autoUpdate": false,
   "extensions.ignoreRecommendations": true,
   "editor.renderWhitespace": "all",
   "workbench.startupEditor": "none",
   "files.autoSave": "afterDelay",
-  "editor.minimap.enabled": false,
   "window.newWindowDimensions": "inherit",
   "window.openFoldersInNewWindow": "on",
   "window.openFilesInNewWindow": "on",
@@ -57,7 +58,12 @@
     "[Atom One Light]": {
       "statusBarItem.remoteBackground": "#EAEAEB",
       "statusBarItem.remoteForeground": "#252526",
-    }
+    },
+    // I don't like that deleted lines are shown in red in the overview ruler
+    // because it makes them look like errors, so I set them to magenta instead
+    "editorOverviewRuler.deletedForeground": "#8e0082",
+    // Errors should be as red as possible
+    "editorOverviewRuler.errorForeground": "#ff0000",
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "timetracker.useCompactStatusPanel": true,
@@ -81,7 +87,7 @@
   "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
   "database-client.telemetry.usesOnlineServices": false,
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false,
@@ -89,7 +95,11 @@
     "typescript": true,
     "typescriptreact": true,
     "gleam": true,
-    "elixir": true
+    "elixir": true,
+    "shellscript": true,
+    "astro": true,
+    "svelte": true,
+    "dockerfile": true
   },
   "playwright.reuseBrowser": true,
   "window.confirmBeforeClose": "always",
@@ -120,8 +130,6 @@
     },
   },
   "terminal.integrated.defaultProfile.osx": "fish",
-  "vscode-pets.petSize": "medium",
-  "vscode-pets.theme": "beach",
   "mise.configureExtensionsAutomatically": false,
   "git.blame.editorDecoration.enabled": true,
   "files.associations": {
@@ -130,5 +138,16 @@
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "mise.checkForNewMiseVersion": false,
+  "svg.preview.mode": "svg",
+  "git.replaceTagsWhenPull": true,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false
 }
