@@ -111,10 +111,6 @@
     "temperature": 0.5
   },
   "gleam.path": "/Users/jonas/.local/share/mise/installs/gleam/latest/bin/gleam",
-  "code-livebook.livebookExecutablePath": "/Users/jonas/.local/share/mise/installs/elixir/1.16.3-otp-26/.mix/escripts/livebook",
-  "code-livebook.livebookEnvironment": {
-    "PATH": "/Users/jonas/.local/share/mise/shims:/Users/jonas/.mix/escripts:/opt/homebrew/opt/postgresql@16/bin:/Users/jonas/.local/bin:/Users/jonas/miniforge3/bin:/Users/jonas/Library/pnpm:/Users/jonas/.bun/bin:/usr/local/opt/python@3.10/libexec/bin:/usr/local/lib/ruby/gems/2.6.0/gems/dugway-1.0.4/bin:/usr/local/opt/ruby@2.6/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/MacGPG2/bin:/Library/TeX/texbin:/Users/jonas/.mix/escripts:/Users/jonas/go/bin:/usr/local/opt/go/libexec/bin"
-  },
   "githubIssues.userCompletions.enabled": false,
   "git.allowNoVerifyCommit": true,
   "[svg]": {
